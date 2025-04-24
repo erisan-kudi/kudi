@@ -262,7 +262,7 @@ document.addEventListener("DOMContentLoaded", () => {
         canvas.viewportTransform[5] = 0;
 
         // Download the exported image
-        saveAs(dataURL, "kiki.png");
+        saveAs(dataURL, "Yami.png");
     });
 
     // Ensure the overlay image is selected whenever the canvas is interacted with
