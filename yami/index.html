@@ -328,6 +328,23 @@ $YAS is not a token. It’s a test.
 		</section>
 
 		
+		<section>
+			<div class="swiper">
+				<div class="swiper-wrapper">
+				  <div class="swiper-slide" style="height: 400px; background-size: contain !important; background-position: center; background: url(../yami/images/slide/1.jpeg);"></div>
+				  <div class="swiper-slide" style="height: 400px; background-size: contain !important; background-position: center; background: url(../yami/images/slide/2.jpeg);"></div>
+				  <div class="swiper-slide" style="height: 400px; background-size: contain !important; background-position: center; background: url(../yami/images/slide/3.jpeg);"></div>
+				  <div class="swiper-slide" style="height: 400px; background-size: contain !important; background-position: center; background: url(../yami/images/slide/4.jpeg);"></div>
+				  <div class="swiper-slide" style="height: 400px; background-size: contain !important; background-position: center; background: url(../yami/images/slide/5.jpeg);"></div>
+				  <div class="swiper-slide" style="height: 400px; background-size: contain !important; background-position: center; background: url(../yami/images/slide/6.jpeg);"></div>
+				  <div class="swiper-slide" style="height: 400px; background-size: contain !important; background-position: center; background: url(../yami/images/slide/7.jpeg);"></div>
+				  <div class="swiper-slide" style="height: 400px; background-size: contain !important; background-position: center; background: url(../yami/images/slide/8.jpeg);"></div>
+				  <div class="swiper-slide" style="height: 400px; background-size: contain !important; background-position: center; background: url(../yami/images/slide/9.jpeg);"></div>
+				  <div class="swiper-slide" style="height: 400px; background-size: contain !important; background-position: center; background: url(../yami/images/slide/10.jpeg);"></div>
+				  <div class="swiper-slide" style="height: 400px; background-size: contain !important; background-position: center; background: url(../yami/images/slide/11.jpeg);"></div>
+				</div>
+			  </div>
+		</section>
 		<section class="exch" id="exchange">
 
 			<div class="exch__wrapper">
@@ -680,6 +697,27 @@ Email: Yami@Yami.xyz            </div>
         var rellax = new Rellax('.rellax');
     </script>
 
+<script>
+    const swiper = new Swiper('.swiper', {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      breakpoints: {
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 0,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 0,
+        },
+      },
+    });
+  </script>
 
 <script src="files/scripts6e66.js?v=1745341455" crossorigin="anonymous"></script>
 
