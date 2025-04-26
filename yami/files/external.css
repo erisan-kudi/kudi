@@ -1,5 +1,7 @@
 
-
+.token__icons__item img{
+    border-radius: 50% !important;
+}
 @media screen and (max-width: 600px) {
     .hero__in__right-Yami {
         display: none !important;
