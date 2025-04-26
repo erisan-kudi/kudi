@@ -1,0 +1,16 @@
+
+
+@media screen and (max-width: 600px) {
+    .hero__in__right-Yami {
+        display: none !important;
+    }
+
+    .image-class{
+        display: block !important;
+    }
+
+    .image-class img{
+        max-width: 100% !important;
+    }
+    
+}
