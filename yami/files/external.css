@@ -4,40 +4,64 @@
 }
 
 @font-face {
-    font-family: 'Redwing';
-    src:  url('../../font/RedwingDuo/Redwing-Medium.otf') format('otf');
+    font-family: Redwing;
+    src:  url('../../font/RedwingDuo/Redwing-Medium.otf') ;
     font-weight: 700;
     font-style: normal;
   }
 
   @font-face {
-    font-family: 'Akira_Expanded';
-    src:  url('../../font/akira_expanded/AkiraExpanded.otf') format('otf');
+    font-family: Akira_Expanded;
+    src:  url('../../font/akira_expanded/AkiraExpanded.otf') ;
     font-style: normal;
   }
 
   @font-face {
-    font-family: 'Oxanium';
-    src:  url('../../font/Oxanium/static/Oxanium-Regular.ttf') format('ttf');
+    font-family: Oxanium;
+    src:  url('../../font/Oxanium/static/Oxanium-Regular.ttf') ;
     font-style: normal;
   }
   @font-face {
     font-family: Sugo-Pro-Classic-Regular;
-    src:  url('../../font/sugo_pro_display/Sugo-Pro-Classic-Regular-trial.ttf') format('ttf');
+    src:  url('../../font/sugo_pro_display/Sugo-Pro-Classic-Regular-trial.ttf') ;
+    font-style: normal;
+  }
+  @font-face {
+    font-family:Orbitron;
+    src:  url('../../font/Orbitron/static/Orbitron-Regular.ttf') ;
     font-style: normal;
   }
 
+  button{
+    font-family: Orbitron !important;
+  }
+  .cta{
+    background-color: #fad722;
+    font-size: 30px;
+    border-color: black;
+    color: black;
+    font-weight: 700px !important;
+    padding: 10px 30px !important;
+    border-width: 5px !important;
+    outline: none !important;
+    border-radius: 20px;
+  }
   .menu{
     font-family: 'Redwing', sans-serif !important;
     font-weight: 600 !important;
   }
-  .title{
-    font-family: 'Akira_Expanded', sans-serif !important;
+  .title , h1{
+    font-family: Akira_Expanded, sans-serif !important;
     font-weight: 600 !important;
+    font-size: 4rem !important;
+  }
+  h3 , h2{
+        font-family: Akira_Expanded, sans-serif !important;
+        font-size: 3rem !important;
   }
 
   .sub-title , h4{
-    font-family: 'Oxanium' !important;
+    font-family: Oxanium !important;
     font-size: 35px !important;
     font-weight: 600 !important;
   }
