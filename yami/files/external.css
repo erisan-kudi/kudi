@@ -33,7 +33,7 @@
   }
   body{
     width: 100vw !important;
-    overflow: hidden !important;
+    overflow-x: hidden !important;
   }
 
   button{
